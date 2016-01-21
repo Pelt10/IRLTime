@@ -1,0 +1,5 @@
+name: IRLTime
+version: 1.0
+author: Pelt10
+main: fr.pelt10.irlTime.IRLTime
+commands:
