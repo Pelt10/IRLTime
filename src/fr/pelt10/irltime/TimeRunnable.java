@@ -1,4 +1,4 @@
-package fr.pelt10.irlTime;
+package fr.pelt10.irltime;
 
 import java.util.Date;
 
