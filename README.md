@@ -1,12 +1,20 @@
-This Minecraft plugin set game's time to real's time.
+IRLTime
+------
+Set game time to real time
 
---| INSTALL |--
-1. Check if the computer/server time is the same as real.
-2. Download plugin at : https://www.dropbox.com/sh/ewrv2g0kvwaf0rt/AACdthvhM1ndmMRHWi1e-EfOa
-3. Put in plugin directory
-4. Restart or Reload your server
-5. Enjoy it's install !
+–| USAGE |–
+    After the installation(cf. INSTALL step), the server time is set in real time. If you want to disable it, you just have to execute the command "/irltime", to reactivate just retype the command!
 
---| LISENCE |--
+–| INSTALL |–
+1. Unsure that your computer/server time is set to real time
+2. [Download the](https://www.spigotmc.org/resources/irl-time.44809/) plugin and put it in your server “plugins” directory
+4. Restart or reload your server
+5. Set game rule “doDaylightCycle” to false (/gamerule doDaylightCycle false)
+6. Enjoy!
 
-This plugin is under SkyoLicense ! Please read LICENSE.md !
+–| SUPPORT |–
+    If you need some help you can contact me on Discord(Pelt10#0289).
+   If you find a bug, please report it on the issues tracker, thanks <3 !
+
+By using/modifying this project, you agree to the terms of the [License](https://github.com/Pelt10/IRLTime/blob/master/LICENSE.md).
+
