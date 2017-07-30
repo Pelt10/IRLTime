@@ -1,5 +1,9 @@
 name: IRLTime
+main: fr.pelt10.irltime.IRLTime
 version: 1.0
 author: Pelt10
-main: fr.pelt10.irlTime.IRLTime
 commands:
+  irltime:
+     description: You can enable/disable IRLTime with this command !
+     permission: irltime.admin
+     usage: /<command>

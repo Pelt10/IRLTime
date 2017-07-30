@@ -1,6 +1,5 @@
 package fr.pelt10.irltime;
 
-import java.util.Arrays;
 import java.util.Calendar;
 
 import org.bukkit.Bukkit;
@@ -13,9 +12,8 @@ public class IRLTime extends JavaPlugin {
     @Override
     public void onEnable() {
 	enableScheduler();
-
-	new DCommand("irltime", "/irltime", "Enable/Disable IRLTime", "irltime.admin", Arrays.asList(),
-		(sender, command, label, args) -> {
+	
+	getCommand("irltime").setExecutor((sender, command, label, args) -> {
 		    if(taskID == -1) {
 			enableScheduler();
 		    } else {
@@ -23,7 +21,7 @@ public class IRLTime extends JavaPlugin {
 		    }
 		    sender.sendMessage("Le temps IRL est désormais " + (taskID==-1 ? "activé" : "désactivé"));
 		    return true;
-		}, this);
+		});
 
 	super.onEnable();
     }
