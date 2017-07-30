@@ -19,7 +19,7 @@ public class IRLTime extends JavaPlugin {
 		    } else {
 			disableScheduler();
 		    }
-		    sender.sendMessage("Le temps IRL est désormais " + (taskID==-1 ? "activé" : "désactivé"));
+		    sender.sendMessage("IRLTime is now  " + (taskID==-1?"disable":"enable"));
 		    return true;
 		});
 
