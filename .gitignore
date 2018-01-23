@@ -1,7 +1,8 @@
 /bin/*
 /target/
 /.settings/*
-AlgathiaAPI.iml
 .classpath
 .project
 /bin/
+.idea/
+*.iml
